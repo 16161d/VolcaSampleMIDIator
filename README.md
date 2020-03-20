@@ -11,17 +11,17 @@ Select your master or controlling MIDI device from the drop down menu.
 
 Select the MIDI device connected to your Volca sample. The following effects should now be in place:
 
-### *Velocity Sensitivity
+### Velocity Sensitivity
 
 The Volca Sample will now respond to velocity control data.
 
-### *'Single' Channel Control
+### 'Single' Channel Control
 
 The sample control base key sets the root note from where you can trigger each individual sample currently set accross the Volca Samples active 10 MIDI channels.
 
 eg. C2 = Note C2 (Sample 1), Note C2# (Sample 2) etc.
 
-### *Chromatic Control
+### Chromatic Control
 
 The chromatic control is current set with a range of -/+ 12 semitones. Due to how this MIDI hack works, the samples won't be perfectly pitched in tune, the same is true for the RK-002.
 
