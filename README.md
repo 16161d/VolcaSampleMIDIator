@@ -1,6 +1,6 @@
 # Volca Sample MIDIator
 
-This simple app aims to emulate some of the features that the RetroKits RK-002 Smart MIDI cable w/ Volca Sample firmware does.
+This simple app aims to emulate some of the features that the [RetroKits RK-002 Smart MIDI cable](https://www.retrokits.com/rk-002/) w/ Volca Sample firmware does.
 
 Built with Cycling 74's Max 8 software. The zip contains an OSX .app file, as well as a Max collective and Max patcher file. Please feel free to modify and do with the Max patch what you want, I'd appreciate any feedback from Max gurus on anything I can do to optimise the patch and make better use of existing objects.
 
@@ -25,7 +25,7 @@ eg. C2 = Note C2 (Sample 1), Note C2# (Sample 2) etc.
 
 The chromatic control is current set with a range of -/+ 12 semitones. Due to how this MIDI hack works, the samples won't be perfectly pitched in tune, the same is true for the RK-002.
 
-Setting the sample control base key will automatically shift the chromatic base note two octaves higher
+Setting the sample control base key will automatically shift the chromatic base note two octaves higher.
 
 eg. Sample control base key of C2 sets the Chromatic base key to C4.
 
@@ -39,7 +39,7 @@ I don't think this app fully recreates all of the features of RetroKits RK-002, 
 
 ## Changelog !
 
-# v0.1 - First public version, may be issues, but has been tested thouroughly. An update may be made to include MIDI mapping.
+* v0.1 - First public version, may be issues, but has been tested thouroughly. An update may be made to include MIDI mapping.
 
 
 
