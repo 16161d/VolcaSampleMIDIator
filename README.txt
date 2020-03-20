@@ -1,8 +1,9 @@
-# VolcaSampleMIDIator
-
-Built with Cycling 74's Max 8 software. The zip contains an OSX .app file, as well as Max collective and the Max patcher file itself.
+# Volca Sample MIDIator
 
 This simple app aims to emulate some of the features that the RetroKits RK-002 Smart MIDI cable w/ Volca Sample firmware does.
+
+Built with Cycling 74's Max 8 software. The zip contains an OSX .app file, as well as a Max collective and Max patcher file. Please feel free to modify and do with the Max patch what you want, I'd appreciate any feedback from Max gurus on anything I can do to optimise the patch and make better use of existing objects.
+
 
 Instructions !
 
@@ -30,11 +31,15 @@ eg. Sample control base key of C2 sets the Chromatic base key to C4.
 
 
 Notes on limitations !
-Because of the limitations in the design of the Volca Sample by KORG when implementing midi*, this app doesn't "add" any new features, but simply intercepts and reroutes MIDI data to controls that do provide the closest functionality. MIDI note data instead sends Pitch control change messages to the active MIDI channel accross the set range, velocity data is instead sent to Level CC for the active MIDI channel. 
+Because of the limitations in the design of the Volca Sample by KORG when implementing MIDI*, this app doesn't "add" any new features, but simply intercepts and reroutes MIDI data to controls that do provide the closest functionality. MIDI pitch / note data instead sends Pitch control change messages to the active MIDI channel accross the set range, velocity data is instead sent to Level CC for the active MIDI channel. 
 
 I don't think this app fully recreates all of the features of RetroKits RK-002, but I aimed to recreate the most sought after ones. I still recommend the RK-002 as it can be loaded with all other kinds of custom firmware and is better suited to hardware only or live setups. I will never be recording or playing with things being connected to my computer, so I can live with this alternative.
 
 * This is not so much a criticsm or a comment that the design is bad, it makes perfect sense for what the Volca Sample is, but there will always be a small percentage of people who want to use something in a way that it wasn't intended for :)
+
+Changelog !
+
+# v0.1 - First public version, may be issues, but has been tested thouroughly. An update may be made to include MIDI mapping.
 
 
 
