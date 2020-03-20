@@ -21,7 +21,7 @@ The sample control base key sets the root note from where you can trigger each i
 
 eg. C2 = Note C2 (Sample 1), Note C2# (Sample 2) etc.
 
-### [Chromatic Control]
+### Chromatic Control
 
 The chromatic control is current set with a range of -/+ 12 semitones. Due to how this MIDI hack works, the samples won't be perfectly pitched in tune, the same is true for the RK-002.
 
