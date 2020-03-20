@@ -1,6 +1,6 @@
-# VolcaSampleMIDIiator
+# VolcaSampleMIDIator
 
-Built with Cycling 74's Max 8 software.
+Built with Cycling 74's Max 8 software. The zip contains an OSX .app file, as well as Max collective and the Max patcher file itself.
 
 This simple app aims to emulate some of the features that the RetroKits RK-002 Smart MIDI cable w/ Volca Sample firmware does.
 
