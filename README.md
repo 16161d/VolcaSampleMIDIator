@@ -23,7 +23,7 @@ eg. C2 = Note C2 (Sample 1), Note C2# (Sample 2) etc.
 
 ### Chromatic Control
 
-The chromatic control is current set with a range of -/+ 12 semitones. Due to how this MIDI hack works, the samples won't be perfectly pitched in tune, the same is true for the RK-002.
+The chromatic control is current set with a range of -/+ 12 semitones. Due to how this MIDI hack works, the samples won't be perfectly pitched in tune, the same is true for the RK-002 (although their maths is probably more accurate than mine).
 
 Setting the sample control base key will automatically shift the chromatic base note two octaves higher.
 
