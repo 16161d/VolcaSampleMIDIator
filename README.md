@@ -39,7 +39,9 @@ I don't think this app fully recreates all of the features of RetroKits RK-002, 
 
 ## Changelog !
 
-* v0.1 - First public version, may be issues, but has been tested thouroughly. An update may be made to include MIDI mapping.
+* v1.0.0 - First public version, may be issues, but has been tested thouroughly. An update may be made to include MIDI mapping.
+
+* v1.0.1 - Fixed app not detecting hotswapped MIDI devices. Lists will now update and refresh if a MIDI device is connected or disconnected.
 
 
 
