@@ -1,5 +1,7 @@
 # Volca Sample MIDIator
 
+![midiator](/img/midiator.png)
+
 This simple app aims to emulate some of the features that the [RetroKits RK-002 Smart MIDI cable](https://www.retrokits.com/rk-002/) w/ Volca Sample firmware does.
 
 Built with Cycling 74's [Max 8 software](https://cycling74.com). The zip contains an OSX .app file, as well as a Max collective and Max patcher file. Please feel free to modify and do with the Max patch what you want, I'd appreciate any feedback from Max gurus on anything I can do to optimise the patch and make better use of existing objects.
